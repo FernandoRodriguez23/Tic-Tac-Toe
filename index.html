@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Fernando Rodriguez">
+        <meta name="discrption" content="Tic Tac Toe">
+
+        <meta property="og:image" content="Favacon.png">
+        <meta property="FavaCon" content="Chems with code">
+        <meta property="A picture of Chems with Code writen" content="Future FavaCon">
+        <link rel="shortcut icon" href="Favacon.png" type="image/x-icon">
+        
+        <title>Tic Tac Toe</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <header>
+            <h2>Tic Tac Toe</h2>
+        </header>
+        
+        <table id="board" class="hidden">
+            <tr class="row">
+                <td id="00" class="q1" onclick="choseQuadrent('q1')"></td>
+                <td id="01" class="q2" onclick="choseQuadrent('q2')"></td>
+                <td id="02" class="q3" onclick="choseQuadrent('q3')"></td>
+            </tr>
+            <tr class="row">
+                <td id="10" class="q4" onclick="choseQuadrent('q4')"></td>
+                <td id="11" class="q5" onclick="choseQuadrent('q5')"></td>
+                <td id="12" class="q6" onclick="choseQuadrent('q6')"></td>
+            </tr>
+            <tr class="row">
+                <td id="20" class="q7" onclick="choseQuadrent('q7')"></td>
+                <td id="21" class="q8" onclick="choseQuadrent('q8')"></td>
+                <td id="22" class="q9" onclick="choseQuadrent('q9')"></td>
+            </tr>
+        </table>
+
+        <div> 
+        <button class="reset" id="resetButton">Reset</button>
+        <p>Win Streak =</p> 
+        </div>
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
