@@ -21,27 +21,33 @@
         
         <table id="board" class="hidden">
             <tr class="row">
-                <td id="00" class="q1" onclick="choseQuadrent('q1')"></td>
-                <td id="01" class="q2" onclick="choseQuadrent('q2')"></td>
-                <td id="02" class="q3" onclick="choseQuadrent('q3')"></td>
+                <td id="00" class="q1 board" onclick="choseQuadrent('q1')"></td>
+                <td id="01" class="q2 board" onclick="choseQuadrent('q2')"></td>
+                <td id="02" class="q3 board" onclick="choseQuadrent('q3')"></td>
             </tr>
             <tr class="row">
-                <td id="10" class="q4" onclick="choseQuadrent('q4')"></td>
-                <td id="11" class="q5" onclick="choseQuadrent('q5')"></td>
-                <td id="12" class="q6" onclick="choseQuadrent('q6')"></td>
+                <td id="10" class="q4 board" onclick="choseQuadrent('q4')"></td>
+                <td id="11" class="q5 board" onclick="choseQuadrent('q5')"></td>
+                <td id="12" class="q6 board" onclick="choseQuadrent('q6')"></td>
             </tr>
             <tr class="row">
-                <td id="20" class="q7" onclick="choseQuadrent('q7')"></td>
-                <td id="21" class="q8" onclick="choseQuadrent('q8')"></td>
-                <td id="22" class="q9" onclick="choseQuadrent('q9')"></td>
+                <td id="20" class="q7 board" onclick="choseQuadrent('q7')"></td>
+                <td id="21" class="q8 board" onclick="choseQuadrent('q8')"></td>
+                <td id="22" class="q9 board" onclick="choseQuadrent('q9')"></td>
             </tr>
         </table>
 
         <div> 
         <button class="reset" id="resetButton">Reset</button>
-        <p>Win Streak =</p> 
+        <p id="winStreak">Win Streak = </p>
+        <p id="winner">Winner is = </p>
         </div>
+            <!--<h1 class="xPlayer">X</h1>
+                <h1 class="oPlayer">O</h1>-->
 
+        <footer>
+            <p>Background by: SVG Backgrounds</p>
+        </footer>
 
         <script src="script.js"></script>
     </body>

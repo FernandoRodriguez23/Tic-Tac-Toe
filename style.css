@@ -42,8 +42,8 @@ button {
 
 
 tr td {
-    width: 150px; 
-    height: 150px; 
+    width: 175px; 
+    height: 175px; 
     border: 2.5px solid #ccff00;
     box-shadow: 10px 10px 10px yellowgreen;
     align-items: stretch;
@@ -64,9 +64,36 @@ div {
     margin-top: 20px;
 }
 
+footer p{
+    color: white;
+    font-size: 1.15rem;
+    font-family: monospace;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(222, 228, 174);
+    margin-top: 20px;
+}
+
+.oPlayer {
+    color: rgb(255, 139, 240);
+    font-size: 9.50rem;
+    font-family: monospace;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(224, 168, 230);
+}
+
+.xPlayer {
+    color: rgb(72, 131, 209);
+    font-size: 9.50rem;
+    font-family: monospace;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(145, 217, 230);
+}
+
 div p {
     margin-top: 20px;
 }
+
+
 
 td:hover {
     cursor: pointer; 
