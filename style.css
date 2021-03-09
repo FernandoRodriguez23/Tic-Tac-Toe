@@ -42,8 +42,8 @@ button {
 
 
 tr td {
-    width: 175px; 
-    height: 175px; 
+    width: 125px; 
+    height: 125px; 
     border: 2.5px solid #ccff00;
     box-shadow: 10px 10px 10px yellowgreen;
     align-items: stretch;
@@ -75,7 +75,7 @@ footer p{
 
 .oPlayer {
     color: rgb(255, 139, 240);
-    font-size: 9.50rem;
+    font-size: 8rem;
     font-family: monospace;
     text-align: center;
     text-shadow: 5px 5px 5px rgb(224, 168, 230);
@@ -83,7 +83,7 @@ footer p{
 
 .xPlayer {
     color: rgb(72, 131, 209);
-    font-size: 9.50rem;
+    font-size: 8rem;
     font-family: monospace;
     text-align: center;
     text-shadow: 5px 5px 5px rgb(145, 217, 230);
